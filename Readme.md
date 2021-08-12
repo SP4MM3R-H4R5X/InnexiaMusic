@@ -1,4 +1,7 @@
-# H ow To Host
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/TANYA-OP/InnexiaMusic&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
+
+# 
+H ow To Host
 The easiest way to deploy this Bot
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/DarkCybers/InnexiaMusic"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-grey?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
