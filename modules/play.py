@@ -843,7 +843,7 @@ async def ytplay(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="▶️ **Playing** here the song requested by {} via Youtube Music 😜".format(
+            caption="▶️ **song by {r_by.mention}\n**🏷️Title{title}**\n**⏳Duration {duration}**\n**👁️Views{views}**\n".format(
                 message.from_user.mention()
             ),
         )
@@ -1227,7 +1227,7 @@ async def lol_cb(b, cb):
         await b.send_photo(chat_id,
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"▶️ **Playing** here the song requested by {r_by.mention} \n** Duration {duration} \n ",
+            caption=f"▶️ **song by {r_by.mention}\n**🏷️Title{title}**\n**⏳Duration {duration}**\n**👁️Views{views}**\n",
         )
         
         os.remove("final.png")
